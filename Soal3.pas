@@ -18,7 +18,9 @@ begin //memulai program
                 else //operasi kondisi untuk output
                     write(' ');//output jika kondisi tidak terpenuhi
             end; //mengakhiri operasi untuk y
-            writeln;
+            writeln; //berpindah baris
         end; //mengakhiri operasi untuk x
-    end; //mengakhiri operasi kondisi
+    end //mengakhiri operasi kondisi
+    else //jika kondisi tidak terpenuhi (diinput angka genap)
+        write ('angka tidak valid, harus angka ganjil'); //output jika memasukkan angka genap
 end. //mengakhiri program
